@@ -1,4 +1,4 @@
-In this project, let's build a **Password Manager** by applying the concepts we have learned till now.
+The solution is hosted at https://rectpassmanager.ccbp.tech/
 
 ### Refer to the image below:
 
