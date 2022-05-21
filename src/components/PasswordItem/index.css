@@ -1,0 +1,41 @@
+li {
+  list-style-type: none;
+}
+
+.password-item-container {
+  border: 1px solid #fff;
+  background-color: transparent;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 14px;
+  margin-bottom: 24px;
+}
+
+.stars {
+  max-width: 70%;
+}
+
+.delete-icon {
+  width: 30px;
+}
+
+.initial-container {
+  text-align: center;
+}
+
+.initial {
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 100px;
+  background-color: cornflowerblue;
+  margin-right: 12px;
+  width: 50px;
+  font-weight: bold;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,146 @@
+.logo {
+  width: 200px;
+}
+
+.add-password-section,
+.show-password-section {
+  padding: 4%;
+  border-radius: 24px;
+  background-color: #7683cb;
+  margin: 24px 0;
+}
+
+.decorative-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.decorative-image {
+  width: 80%;
+}
+
+.add-password-form {
+  padding: 4%;
+  border-radius: 24px;
+  background-color: #454f84;
+  margin: 24px 0;
+}
+
+.input-container {
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.input-icon {
+  width: 50px;
+  border-right: 1px solid lightgray;
+  padding: 8px;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  background-color: #fff;
+  color: gray;
+  font-family: 'Roboto';
+  font-size: 18px;
+  padding: 18px 12px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  outline: none;
+}
+
+.add-btn {
+  padding: 12px 48px;
+  color: #fff;
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.add-btn-container {
+  text-align: right;
+}
+
+.search-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span {
+  border: 1px solid #fff;
+  border-radius: 25px;
+  padding: 4px 8px;
+  margin-left: 8px;
+}
+
+.pass-count-section {
+  width: fit-content;
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  width: min-content;
+  height: fit-content;
+}
+
+.search {
+  font-size: 14px;
+  padding: 8px;
+  border: none;
+  outline: none;
+  width: 100px;
+}
+
+.search-icon {
+  width: 30px;
+  border-right: 1px solid lightgray;
+  padding: 4px;
+}
+
+.show-password-text-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.checkbox {
+  transform: scale(1.5, 1.5);
+  margin-right: 10px;
+  outline: none;
+}
+
+@media screen and (min-width: 900px) {
+  .add-password-section {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .add-password-form {
+    width: 50%;
+  }
+
+  .decorative-image {
+    width: 60%;
+  }
+
+  .display-password-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .password-item-container {
+    width: 45%;
+  }
+}
